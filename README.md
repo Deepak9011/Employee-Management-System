@@ -1,7 +1,30 @@
 # Spring Boot Employee Management System
 
 ## Overview
-The Employee Management System is built using Spring Boot to manage employee records, user roles, and permissions. This project demonstrates the core features of a basic management system, including CRUD operations, role-based access control, and email notification settings.
+The **Employee Management System** is built using Spring Boot to manage employees, departments, branches, and user roles. This system allows administrators and users to perform various employee-related operations and manage the organization efficiently.
+
+## Key Features
+- **Employee Management:**
+  - View all employees.
+  - Add a new employee.
+  - Edit employee information.
+  - Delete employees.
+  - View detailed information about an employee.
+  - Download a PDF of all employees from the top-right corner.
+
+- **Department and Branch Management:**
+  - Add and manage departments.
+  - Add and manage branch lists.
+
+- **User Authentication and Profile:**
+  - User login and logout features.
+  - View and update profile information.
+
+- **Employee Dashboard:**
+  - A dedicated employee dashboard to quickly access key features and data.
+
+- **Admin Contact:**
+  - A feature to directly contact the admin for queries or issues.
 
 ## Download Link
 To explore the project code, download it from the following link:
@@ -14,11 +37,11 @@ You can access the live version of the Employee Management System with the follo
 - **End User Login:**
   - **Username:** `user@example.com`
   - **Password:** `yourpassword`
-  
-Feel free to test the functionalities of the system using these credentials.
+
+Feel free to test the functionalities using these credentials.
 
 ## User Roles
-For a detailed understanding of the user roles and their table structure, watch the video tutorial below (specifically the roles table creation part):
+For a detailed understanding of user roles and the table structure, watch the video tutorial below (specifically the roles table creation part):
 [Watch Video](https://www.youtube.com/watch?v=i21h6ThUiWc&ab_channel=CodeJava)
 
 ## Database Setup
@@ -44,7 +67,6 @@ To enable email notifications, follow the steps below:
 
 ## Author
 Deepak Agrawal
-
 
 
 
