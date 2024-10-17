@@ -35,8 +35,8 @@ You can access the live version of the Employee Management System with the follo
 
 - **URL:** [Live Server URL]
 - **End User Login:**
-  - **Username:** `user@example.com`
-  - **Password:** `yourpassword`
+  - **Username:** admin
+  - **Password:** admin
 
 Feel free to test the functionalities using these credentials.
 
