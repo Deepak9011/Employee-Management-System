@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
-    <title>Jeewa Education</title>
+    <title>Deepak Agrawal Employee Management Project</title>
     <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
     <!-- Stylesheets & Fonts -->
     <!-- Google Fonts -->

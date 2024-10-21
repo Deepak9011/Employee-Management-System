@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Jeewa Education</title>
+<title>Deepak Agrawal Employee Management Project</title>
 
 <!-- Custom fonts for this template -->
 <link href="../static/admin/vendor/fontawesome-free/css/all.min.css"
