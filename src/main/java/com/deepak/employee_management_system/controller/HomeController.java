@@ -11,6 +11,12 @@ public class HomeController {
         System.out.println("Hello");
 		return "home";
 	}
+
+	@RequestMapping("/errorInThisPage")
+	public String error() {
+        System.out.println("Hello");
+		return "error";
+	}
 	
 	@GetMapping("/loginname")
 	public String loginPage() {

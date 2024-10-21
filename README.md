@@ -46,7 +46,7 @@ For a detailed understanding of user roles and the table structure, watch the vi
 
 ## Database Setup
 ### Step 1: Create the Database
-1. Create a database called `Jeewaeducation`.
+1. Create a database called `employee_management_sytem`.
 2. Run the program, and necessary tables will be generated automatically.
 
 ### Step 2: Setup Roles and Users Tables
