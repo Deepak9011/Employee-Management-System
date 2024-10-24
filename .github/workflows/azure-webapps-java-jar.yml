@@ -64,11 +64,22 @@ jobs:
       name: 'Development'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v3
-        with:
-          name: java-app
+    # steps:
+    #   - name: Azure WebApp Deploy
+    #     uses: azure/webapps-deploy@v2
+    #     with:
+    #       app-name: em4
+    #       publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+    #       package: *.jar
+    #     env:
+    #       AZURE_WEBAPP_NAME: em4
+    #       JAVA_VERSION: 21
+    #       DISTRIBUTION: zulu
+
+      # - name: Download artifact from build job
+      #   uses: actions/download-artifact@v3
+      #   with:
+      #     name: java-app
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
