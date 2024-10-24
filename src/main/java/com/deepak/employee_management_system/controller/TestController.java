@@ -9,5 +9,10 @@ public class TestController {
     public String sayHello() {
         return "Hello, World!";
     }
+
+    @GetMapping("/home")
+    public String home() {
+        return "Sorry, For a Inconvience (Server at currently work on, please come back later). Contact to administrator (deepakagrawal9011@gmail.com)";
+    }
 }
 
