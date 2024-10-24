@@ -64,10 +64,15 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.hibernate.orm</groupId>
 			<artifactId>hibernate-core</artifactId>
 			<version>6.5.2.Final</version>
+		</dependency> -->
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>6.2.8.Final</version> <!-- Try a stable version -->
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
@@ -130,6 +135,7 @@
 			<artifactId>mssql-jdbc</artifactId>
 			<version>12.8.1.jre11</version>
 		</dependency>
+
 
 	</dependencies>
 
