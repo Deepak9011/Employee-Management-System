@@ -51,4 +51,4 @@ jobs:
           app-name: 'ems-app-service-spring'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D5ED39E173AD4FE380808CA6C97984DC }}
-          package: '*.jar'
+          package: '*.war'
